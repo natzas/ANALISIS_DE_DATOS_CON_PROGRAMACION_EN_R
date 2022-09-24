@@ -1,0 +1,65 @@
+x = 1L # integer
+x
+class(x)
+typeof(x)
+
+x = 1.0 # double o float
+
+seq(1, 4, 0.25 )
+
+seq(length=9, from=1, to=5 )
+rep(1,20)
+z <- scan()
+
+# vectores
+
+a <- c(1,2,3,4,5,6)
+b <- c("uno", "dos", "tres")
+c <- c(TRUE,TRUE,TRUE,FALSE,TRUE,FALSE)
+x <- c(151,174,138,186,128,136,179,163,152,131,180,185,156,175,170,163)
+x
+x <- sort(x)
+x
+sum(x)
+length(x)
+mean(x)
+mean(c)
+mode(a)
+sd(x)
+sqrt(sum(x - mean(x))^2 ) / (length(x) - 1)
+var(x) # desviacion estandar al cuadrado
+str(x)
+length(x)
+dim(x)
+
+cbind(a,b) # para unir datos en columnas
+rbind(a,b) # en fila
+
+# LISTAS 
+
+name <- c("abhi","absh", "ajay")
+
+place <- c("delhi", "mumbai", "pune")
+
+age <-c(TRUE, FALSE, TRUE, FALSE, FALSE)
+
+l <- list(name, place, age)
+l
+str(l)
+dim(l)
+nrow(l)
+
+y <- matrix(1:9,3,3)
+
+w <- list(name="Fred", mynumbers-a, mymatrix, age-5.3)
+
+l[1]
+l[[1]] # acceder elementos
+l[[2]][1] # acceder al 1º elemento de la 2 lsita
+w$mynumbers[1]
+
+# cambiar nombre de las listas 
+names(l) <- c("letras","strings", "logi")
+
+# cambiar valor a la lista
+l$lofi <- c("FALSE", "TRUE")
